@@ -55,7 +55,7 @@ a:hover {
   color: white
 }
 
-/* add nyc image*/
+					/* add nyc image*/
 
 header {
   text-align: center;
@@ -82,7 +82,7 @@ header .profile-image:hover {
 	color: #339;
 }
 
-  /* make transparent */
+ 				 /* make transparent */
   
   
   
@@ -97,14 +97,14 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 
- /* change location colours*/
+				 /* change location colours*/
  
 .location {
-  background-color: rgb(186, 0 , 41);
+  background-color: white;
   opacity : 0.7;
-  color: white;
+  color: black;
 }
- /* change hover colour */
+ 				/* change hover colour */
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -124,17 +124,19 @@ ul.skills {
   text-align: center;
 }
 
-.skills li {
+
+               /* Change colour of background*/
+ .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(93, 214, 162);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(170, 135, 172);
 }
 
 footer {
