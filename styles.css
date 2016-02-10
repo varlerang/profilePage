@@ -104,13 +104,23 @@ header .profile-image:hover {
   opacity : 0.7;
   color: black;
 }
- 				/* change hover colour */
+
+
+#card {
+	
+ max-width: 200px;
+ 
+}
+
+ 				/* change hover colour*/
+				
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
+  
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -118,6 +128,10 @@ header .profile-image:hover {
 .card:hover {
   border-color: rgb(238, 255, 255);
 }
+
+
+ 
+	 
 
 ul.skills {
   padding: 0;
