@@ -105,7 +105,16 @@ header .profile-image:hover {
   opacity : 0.7;
   color: black;
 }
-     			
+     		/* centriole image added  */
+			
+  #trio {
+	 position : absolute;
+	 width : 140px;
+	 height: 140px;
+	 left : 270px;
+	 margin : -38px 0 0 0;
+	 
+ }
 				
 				
 				/* chrome image added */
