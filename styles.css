@@ -113,9 +113,13 @@ header .profile-image:hover {
 	 height: 140px;
 	 left : 270px;
 	 margin : -38px 0 0 0;
-	 
+	 animation : curls 6s infinite;
  }
-				
+		@keyframes curls {
+		0% { transform : rotate(0) translateX(0);    }	
+		50% {  transform : rotate(-8deg) translateX(-16px);  }
+		100% {  transform :  rotate(0) translateX(0);}	
+			}
 				
 				/* chrome image added */
   
