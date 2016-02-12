@@ -13,14 +13,19 @@ body {
   
 }
 /* Link Styles */
-
+      /*animate link */
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(203, 24, 42);
+  animation : blink 2s infinite;
 }
-a:hover {
-  color: #6633ff;
-}
+
+   @keyframes blink {
+	0% { color : rgb(203, 24, 42); }
+	50% { color : rgb(225, 225, 225);}
+	100% { color : rgb(203, 24, 42); }   
+	   }
+
 
 /* Section Styles */
 
@@ -49,12 +54,7 @@ a:hover {
 .nav li {
   padding: 5px 10px 10px 10px;
 }
-.nav a {
-  transition: all .5s;
-}
-.nav a:hover {
-  color: white
-}
+
 
 					/* add nyc image*/
 
@@ -89,7 +89,7 @@ header .profile-image:hover {
   
 .tag {
   background-color : white;
-  opacity : 0.8;
+  opacity : 0.7;
   color: black;
   
   padding: 10px;
