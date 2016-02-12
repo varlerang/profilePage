@@ -116,13 +116,15 @@ header .profile-image:hover {
 	width : 60px;
 	height : 70px;
 	left : 900px;
-	
-	
-	
-	
-	
+    animation : swag 6s infinite;
 }
 	
+	@keyframes swag {
+	 0% { transform: rotate(0) translateY(0);  }
+	 50% { transform: rotate(-16deg) translateY(-15px);	}
+	 100% {  transform: rotate(0) translateY(0);   }
+	
+	}
 	
 	   
 
