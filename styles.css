@@ -115,9 +115,14 @@ header .profile-image:hover {
 		border : 2px solid  rgb(93, 214, 162);
 		border-radius: 5px;
 		height : 276px;
-		width : 365px;			
+		width : 365px;	
+		animation : flashing 3s infinite;		
 	}
-      
+      @keyframes flashing {
+		0% { border : 2px solid  rgb(93, 214, 162); }
+		50% {  border : 2px solid rgb(203, 24, 42); }
+		100% { border : 2px solid  rgb(93, 214, 162); }  
+	}
 		   
 		   
 	   
