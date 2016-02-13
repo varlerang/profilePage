@@ -108,12 +108,18 @@ header .profile-image:hover {
 
 		.box {
 	    position : relative;
+		background : url("images/genome_image.svg") no-repeat;
 		margin : 50px;
-		border : 3px solid rgb(203, 24, 42);
-		height : 270px;
-		width : 350px;			
+		
+		border : 2px solid rgb(203, 24, 42);
+		border-radius: 5px;
+		height : 276px;
+		width : 365px;			
 	}
- 
+      
+		   
+		   
+	   
 
      		/* centriole image added  */
 			
@@ -138,10 +144,10 @@ header .profile-image:hover {
    #chrome {
 	  
 	position : relative;
-    width : 160px;
-	height : 170px;
-	left : 100px;
-	top : 60px;
+    width : 270px;
+	height : 280px;
+	left : 50px;
+	top : 10px;
 	
     animation : swag 6s infinite;
 }
@@ -160,7 +166,7 @@ header .profile-image:hover {
 				/* change hover colour*/
 				
 .card {
-  margin: 30px;
+  margin: 35px;
   padding: 5px 40px 40px;
   max-width: 700px;
   text-align: left;
