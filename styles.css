@@ -33,7 +33,7 @@ a {
   width: 100%;
   background: rgb(203, 24, 42);
   min-height: 30px;
-  padding: 10px;
+  padding: 15px;
   position: fixed;
   text-align: center;
 }
@@ -105,14 +105,18 @@ header .profile-image:hover {
   opacity : 0.7;
   color: black;
 }
+
+ 
+
      		/* centriole image added  */
 			
-  #trio {
-	 position : absolute;
+  body #trio {
+	 
+	 position : relative;
 	 width : 140px;
 	 height: 140px;
-	 left : 270px;
-	 margin : -38px 0 0 0;
+	 left : 180px;
+	 top : 20px;
 	 animation : curls 6s infinite;
  }
 		@keyframes curls {
@@ -124,11 +128,14 @@ header .profile-image:hover {
 				/* chrome image added */
   
 	   
- .card .chrome {
-	position : absolute;
-	width : 60px;
+   #chrome {
+	  
+	position : relative;
+    width : 60px;
 	height : 70px;
-	left : 900px;
+	left : 190px;
+	top : 70px;
+	
     animation : swag 6s infinite;
 }
 	
@@ -147,8 +154,8 @@ header .profile-image:hover {
 				
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  padding: 5px 40px 40px;
+  max-width: 700px;
   text-align: left;
   background: #fff;
   
