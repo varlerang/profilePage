@@ -110,8 +110,9 @@ header .profile-image:hover {
 	    position : relative;
 		background : url("images/genome_image.svg") no-repeat;
 		margin : 50px;
+		background-color : rgb(206, 249, 229);
 		
-		border : 2px solid rgb(203, 24, 42);
+		border : 2px solid  rgb(93, 214, 162);
 		border-radius: 5px;
 		height : 276px;
 		width : 365px;			
